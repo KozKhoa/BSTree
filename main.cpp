@@ -4,6 +4,7 @@
 #include <fstream>
 
 using int4 = int32_t;
+using int8 = int64_t;
 
 void readFie(const char inFile[], BSTree<int4> &tree) {
 	std::ifstream fi;
